@@ -1,0 +1,73 @@
+/* Top banner */
+.hero-banner {
+    background: linear-gradient(135deg, #173b57, #287a8c);
+    color: #ffffff;
+    text-align: center;
+    padding: 55px 20px;
+    margin-bottom: 30px;
+}
+
+.hero-banner h1 {
+    font-size: 32px;
+    margin: 0 0 12px;
+}
+
+.hero-banner p {
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* Responsive banner */
+@media (max-width: 600px) {
+    .hero-banner {
+        padding: 40px 15px;
+    }
+
+    .hero-banner h1 {
+        font-size: 25px;
+    }
+
+    .hero-banner p {
+        font-size: 14px;
+    }
+}
+
+/* Stroke project banner */
+.stroke-card {
+    width: 260px;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stroke-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.stroke-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+}
+
+.stroke-card a {
+    color: #0969da;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.stroke-card a:hover {
+    text-decoration: underline;
+}
+
+.stroke-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
